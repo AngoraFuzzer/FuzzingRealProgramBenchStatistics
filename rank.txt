@@ -1,3 +1,4 @@
+10 - libpcap
 9 - tcpdump (libpcap)
 9 - libjpeg
 9 - binutils
@@ -37,7 +38,6 @@
 2 - file
 2 - clamav (libclamav)
 2 - audiofile
-10 - libpcap
 1 - zlib
 1 - xzutils
 1 - xtokkaetama
