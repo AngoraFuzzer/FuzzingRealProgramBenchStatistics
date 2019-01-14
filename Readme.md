@@ -132,7 +132,8 @@ TODO: count #CVE
 - libxml2
 - openssl
 - nDPI
-- tcpdump
+- tcpdump (libpcap)
+- libpcap
 - woff2
 
 ## Chizpurfle - A Gray-Box Android Fuzzer for Vendor Service Customizations
@@ -166,7 +167,8 @@ TODO: count #CVE
 - libjpeg
 - gzip
 - ffmpeg
-- tcpdump
+- tcpdump (libpcap)
+- libpcap
 - capstone
 - gif2png
 
@@ -239,7 +241,7 @@ TODO: count #CVE
 - objdump (binutils)
 - nm (binutils)
 - binutils
-- tcmpdump (libpcap)
+- tcpdump (libpcap)
 - libpcap
 - exiv2
 - vim
@@ -285,14 +287,14 @@ TODO: count #CVE
 - libpcap
 
 ## REDQUEEN: Fuzzing with Input-to-State Correspondence
-- ar
+- ar (binutils)
 - size (binutils)
-- cxxfilt
+- c++filt (binutils)
 - strings (binutils)
 - nm (binutils)
 - objdump (binutils)
 - readelf (binutils)
-- as
+- as (bintutils)
 - binutils
 - gprof
 - tiff2ps (libtiff)
@@ -331,9 +333,25 @@ TODO: count #CVE
 - libtiff
 - lepton
 - openjpeg
-- tcpdump
+- tcpdump (libpcap)
+- libpcap
 - file
 - libarchive
 - audiofile
 - ffmpeg
 - binutils
+
+## TIFF: Using Input Type Inference To Improve Fuzzing
+- mpg321 (libasound)
+- libasound
+- pdf2svg (libpoppler)
+- libpoppler
+- jbig2dev (libjbig2dev)
+- potrace (libpotrace)
+- gif2png (libpng)
+- libpng
+- tcptrace (libpcap)
+- libpcap
+- autotrace (libautotrace)
+- pdftocairo (libcairo)
+- convert (*libGraphicsMagick)

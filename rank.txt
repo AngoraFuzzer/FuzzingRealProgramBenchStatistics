@@ -1,32 +1,32 @@
+9 - tcpdump (libpcap)
 9 - libjpeg
 9 - binutils
+8 - libpng
 7 - objdump (binutils)
-7 - libpng
 6 - nm (binutils)
-6 - libpcap
+6 - libpoppler
 6 - djpeg (libjpeg)
-5 - tcpdump (libpcap)
 5 - readelf (binutils)
 5 - mupdf
 5 - libtiff
-5 - libpoppler
 5 - ffmpeg
 4 - size (binutils)
 4 - libxml2
-3 - tcpdump
+3 - tcptrace (libpcap)
+3 - pdf2svg (libpoppler)
 3 - jhead
+3 - gif2png (libpng)
 3 - gif2png
 3 - convert
+3 - c++filt (binutils)
 3 - ImageMagick
 2 - xpdf
 2 - tiff2ps (libtiff)
 2 - tiff2pdf (libtiff)
-2 - tcptrace (libpcap)
 2 - swftools
 2 - strings (binutils)
 2 - readpng (libpng)
 2 - pngfix (libpng)
-2 - pdf2svg (libpoppler)
 2 - pdf2svg
 2 - openssl
 2 - nginx
@@ -34,11 +34,10 @@
 2 - mpg321
 2 - libarchive
 2 - gzip
-2 - gif2png (libpng)
 2 - file
 2 - clamav (libclamav)
-2 - c++filt (binutils)
 2 - audiofile
+10 - libpcap
 1 - zlib
 1 - xzutils
 1 - xtokkaetama
@@ -55,7 +54,6 @@
 1 - tiffset (libtiff)
 1 - tiffinfo (libtiff)
 1 - tiffcp (libtiff)
-1 - tcmpdump (libpcap)
 1 - strip
 1 - squirrel mail
 1 - speexenc 
@@ -68,6 +66,7 @@
 1 - raptor
 1 - psutils
 1 - ps2pdf
+1 - potrace (libpotrace)
 1 - poppler (libpoppler)
 1 - png2swf (swftools)
 1 - picoc
@@ -75,6 +74,7 @@
 1 - pdftops
 1 - pdftohtml (lipoppler)
 1 - pdftohtml (libpoppler)
+1 - pdftocairo (libcairo)
 1 - pdftocairo
 1 - orzhttpd
 1 - openjpeg
@@ -85,6 +85,7 @@
 1 - mutool draw (mupdf)
 1 - mudraw
 1 - mplayer
+1 - mpg321 (libasound)
 1 - mpeg3dump (libmpeg3)
 1 - mp3gain
 1 - metacam
@@ -106,9 +107,11 @@
 1 - libexif
 1 - libdwarf
 1 - libav
+1 - libasound
 1 - lepton
 1 - lci
 1 - jpegtran
+1 - jbig2dev (libjbig2dev)
 1 - iwdconfig
 1 - ioctl handlers
 1 - inspircd
@@ -132,7 +135,7 @@
 1 - evince
 1 - espruino
 1 - eog
-1 - cxxfilt
+1 - convert (*libGraphicsMagick)
 1 - cjson
 1 - cjpeg (libjpeg)
 1 - chorme
@@ -149,11 +152,12 @@
 1 - bib2xml
 1 - bash
 1 - avconv
+1 - autotrace (libautotrace)
 1 - autotrace
 1 - atphttpd
 1 - aspell
-1 - as
-1 - ar
+1 - as (bintutils)
+1 - ar (binutils)
 1 - apche
 1 - aeon
 1 - abcm2ps
