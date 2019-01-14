@@ -7,7 +7,8 @@ TODO: count #CVE
 - nginx
 - ffmpeg
 - inspircd
-- poppler
+- poppler (libpoppler)
+- libpoppler
 - libexif
 - snort
 
@@ -36,7 +37,7 @@ TODO: count #CVE
 - xtokkaetama
 
 ## FuzzSim -Scheduling Black-box Mutational Fuzzing
-- FFMpeg
+- ffmpeg
 - 100 different Linux applications (unknown)
 
 ## COVERSET - Optimizing Seed Selection for Fuzzing
@@ -49,7 +50,6 @@ TODO: count #CVE
 - eog
 - convert
 - gif2png
-- eog
 - jpegtran
 - convert
 
@@ -74,33 +74,44 @@ TODO: count #CVE
 - inkscape
 
 ## AFLFast - Coverage-based Greybox Fuzzing as Markov Chain
-- nm
-- objdump
-- strings
-- size
-- c++filt
+- nm (binutils)
+- objdump (binutils)
+- strings (binutils)
+- size (binutils)
+- c++filt (binutils)
+- binutils
 
 ## SeededFuzz - Selecting and Generating Seeds for Directed Fuzzing
 - mpeg3dump (libmpeg3)
+- libmpeg3
 - png2swf (swftools)
 - gif2swf (swftools)
+- swftools
 - cjpeg (libjpeg)
+- libjpeg
 - speexenc 
 
 ## VUzzer - Application-aware Evolutionary Fuzzing
 - mpg321
 - gif2png (libpng)
+- libpng
 - pdf2svg (libpoppler)
+- libpoppler
 - tcpdump (libpcap)
 - tcptrace (libpcap)
+- libpcap
 - djpeg (libjpeg)
+- libjpeg
 
 ## Steelix - Program-State Based Binary Fuzzing
 - tiff2pdf (libtiff)
 - tiffcp (libtiff)
+- libtiff
 - pngfix (libpng)
+- libpng
 - gzip
 - tcpdump (libpcap)
+- libpcap
 
 ## Skyfire - Data-Driven Seed Generation for Fuzzing
 - Sablotron
@@ -148,9 +159,11 @@ TODO: count #CVE
 - xpdf
 
 ## S2F - Discover Hard-to-Reach Vulnerabilities by Semi-Symbolic Fuzz Testing
-- readelf
-- objdump
+- readelf (binutils)
+- objdump (binutils)
+- binutils
 - djpeg (libjpeg)
+- libjpeg
 - gzip
 - ffmpeg
 - tcpdump
@@ -158,31 +171,44 @@ TODO: count #CVE
 - gif2png
 
 ## FairFuzz - Targeting Rare Branches to Rapidly Increase Greybox Fuzz Testing Coverage
-- tcpdump (-nr)
-- nm
-- objdump (-d)
-- readelf (-a)
-- c++filt
+- tcpdump (libpcap)
+- libpcap
+- nm (binutils)
+- objdump (binutils)
+- readelf (binutils)
+- c++filt (binutils)
+- binutils
 - mutool draw (mupdf)
+- mupdf
 - xmllint (libxml2)
+- libxml2
 - djpeg (libjpeg)
+- libjpeg
 - readpng (libpng)
+- libpng
 
 ## Angora - Efficient Fuzzing by Principled Search
 - file
 - jhead
 - xmlwf (expat)
+- expat
 - djpeg (libjpeg)
+- libjpeg
 - readpng (libpng)
-- nm
-- objdump
-- size
+- libpng
+- nm (binutils)
+- objdump (binutils)
+- size (binutils)
+- binutils
 
 ## T-Fuzz - fuzzing by program transformation
 - pngfix (libpng)
+- libpng
 - tiffinfo (libtiff)
-- magick (ImageMagick)
+- libtiff
+- ImageMagick
 - pdftohtml (lipoppler)
+- libpoppler
 
 ## MEDS - Enhancing Memory Error Detection for Large-Scale Applications and Fuzz Testing
 - chorme
@@ -207,10 +233,14 @@ TODO: count #CVE
 - tiff2pdf (libtiff)
 - tiff2ps (libtiff)
 - tiffset (libtiff)
+- libtiff
 - listswf (libming)
-- objdump
-- nm
+- libming
+- objdump (binutils)
+- nm (binutils)
+- binutils
 - tcmpdump (libpcap)
+- libpcap
 - exiv2
 - vim
 - nasm
@@ -225,38 +255,48 @@ TODO: count #CVE
 - cflow
 
 ## NEUZZ - Efﬁcient Fuzzing with Neural Program Smoothing
-- readelf
+- readelf (binutils)
 - harfbuzz
 - libjpeg
 - mupdf
 - libxml
-- nm
-- objdump
-- size
+- nm (binutils)
+- objdump (binutils)
+- size (binutils)
 - strip
 - zlib
+- binutils
 
 ## Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing
 - bsdtar (libarchive)
+- libarchive
 - cer-basic (libksba)
+- libksba
 - cjson
 - djpeg (libjpeg)
-- pdftohtml (poppler)
+- libjpeg
+- pdftohtml (libpoppler)
+- libpoppler
 - readelf (binutils)
+- binutils
 - sfconvert (audiofile)
-- tcpdump
+- audiofile
+- tcpdump (libpcap)
+- libpcap
 
 ## REDQUEEN: Fuzzing with Input-to-State Correspondence
 - ar
-- size
+- size (binutils)
 - cxxfilt
-- strings
-- nm
-- objdump
-- readelf
+- strings (binutils)
+- nm (binutils)
+- objdump (binutils)
+- readelf (binutils)
 - as
+- binutils
 - gprof
 - tiff2ps (libtiff)
+- libtiff
 - jhead
 - fdk-acc
 - ImageMagick
@@ -276,10 +316,14 @@ TODO: count #CVE
 ## Smart Greybox Fuzzing
 - mpg321
 - gif2png (libpng)
+- libpng
 - pdf2svg (libpoppler)
+- libpoppler
 - tcpdump (libpcap)
 - tcptrace (libpcap)
+- libpcap
 - djpeg (libjpeg)
+- libjpeg
 
 ## Qsym : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing
 - libjpeg

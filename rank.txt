@@ -1,21 +1,29 @@
-6 - objdump
-6 - nm
+9 - libjpeg
+9 - binutils
+7 - objdump (binutils)
+7 - libpng
+6 - nm (binutils)
+6 - libpcap
 6 - djpeg (libjpeg)
-4 - tcpdump
-4 - size
-4 - mupdf
-4 - ffmpeg
-3 - tcpdump (libpcap)
-3 - readelf
-3 - libxml2
+5 - tcpdump (libpcap)
+5 - readelf (binutils)
+5 - mupdf
+5 - libtiff
+5 - libpoppler
+5 - ffmpeg
+4 - size (binutils)
+4 - libxml2
+3 - tcpdump
 3 - jhead
 3 - gif2png
 3 - convert
+3 - ImageMagick
 2 - xpdf
 2 - tiff2ps (libtiff)
 2 - tiff2pdf (libtiff)
 2 - tcptrace (libpcap)
-2 - strings
+2 - swftools
+2 - strings (binutils)
 2 - readpng (libpng)
 2 - pngfix (libpng)
 2 - pdf2svg (libpoppler)
@@ -24,14 +32,13 @@
 2 - nginx
 2 - mruby
 2 - mpg321
-2 - libjpeg
+2 - libarchive
 2 - gzip
 2 - gif2png (libpng)
 2 - file
-2 - eog
 2 - clamav (libclamav)
-2 - c++filt
-2 - ImageMagick
+2 - c++filt (binutils)
+2 - audiofile
 1 - zlib
 1 - xzutils
 1 - xtokkaetama
@@ -48,9 +55,7 @@
 1 - tiffset (libtiff)
 1 - tiffinfo (libtiff)
 1 - tiffcp (libtiff)
-1 - tcpdump (-nr)
 1 - tcmpdump (libpcap)
-1 - swftools
 1 - strip
 1 - squirrel mail
 1 - speexenc 
@@ -60,22 +65,19 @@
 1 - sfconvert (audiofile)
 1 - sam2p
 1 - rsync
-1 - readelf (binutils)
-1 - readelf (-a)
 1 - raptor
 1 - psutils
 1 - ps2pdf
-1 - poppler
+1 - poppler (libpoppler)
 1 - png2swf (swftools)
 1 - picoc
 1 - perl
 1 - pdftops
-1 - pdftohtml (poppler)
 1 - pdftohtml (lipoppler)
+1 - pdftohtml (libpoppler)
 1 - pdftocairo
 1 - orzhttpd
 1 - openjpeg
-1 - objdump (-d)
 1 - nconvert
 1 - ncompress
 1 - nasm
@@ -88,23 +90,22 @@
 1 - metacam
 1 - mbse-bbs
 1 - mbedtls
-1 - magick (ImageMagick)
 1 - macOS API
 1 - macOS
 1 - listswf (libming)
 1 - libxslt
 1 - libxml
 1 - libtorrent
-1 - libtiff
 1 - libsass
 1 - libressl
 1 - libpspp
-1 - libpng
 1 - libncurses
+1 - libmpeg3
+1 - libming
+1 - libksba
 1 - libexif
 1 - libdwarf
 1 - libav
-1 - libarchive
 1 - lepton
 1 - lci
 1 - jpegtran
@@ -125,10 +126,12 @@
 1 - figtoipe
 1 - fdk-acc
 1 - faceradius
+1 - expat
 1 - exiv2
 1 - exifprobe
 1 - evince
 1 - espruino
+1 - eog
 1 - cxxfilt
 1 - cjson
 1 - cjpeg (libjpeg)
@@ -143,12 +146,10 @@
 1 - boringssl
 1 - bison
 1 - binutils (libbfd)
-1 - binutils
 1 - bib2xml
 1 - bash
 1 - avconv
 1 - autotrace
-1 - audiofile
 1 - atphttpd
 1 - aspell
 1 - as
@@ -165,7 +166,6 @@
 1 - Lua
 1 - Linux
 1 - Javascript engine in Internet Explorer
-1 - FFMpeg
 1 - ChakracCore
 1 - Android services
 1 - 100 different Linux applications (unknown)
