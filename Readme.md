@@ -43,15 +43,17 @@ TODO: count #CVE
 ## COVERSET - Optimizing Seed Selection for Fuzzing
 - xpdf
 - mupdf
-- pdf2svg
+- pdf2svg (libpoppler)
+- libpoppler
 - ffmpeg
 - mplayer
 - mp3gain
 - eog
 - convert
-- gif2png
-- jpegtran
-- convert
+- gif2png (libpng)
+- libpng
+- jpegtran (libjpeg)
+- libjpeg
 
 ## SYMFUZZ - Program-Adaptive Mutational Fuzzing
 - abcm2ps
@@ -59,8 +61,10 @@ TODO: count #CVE
 - bib2xml
 - catdvi
 - figtoipe
-- gif2png
-- pdf2svg
+- gif2png (libpng)
+- libpng
+- pdf2svg (libpoppler)
+- libpoppler
 - mupdf
 
 ## MutaGen - Turning Programs Against Each Other: High Coverage Fuzz-testing Using Binary-code Mutation and Dynamic Slicing.
@@ -69,6 +73,7 @@ TODO: count #CVE
 - nconvert
 - pdftocairo
 - mudraw
+- mupdf
 - pdftops
 - ps2pdf
 - inkscape
@@ -92,7 +97,8 @@ TODO: count #CVE
 - speexenc 
 
 ## VUzzer - Application-aware Evolutionary Fuzzing
-- mpg321
+- mpg321 (libasound)
+- libasound
 - gif2png (libpng)
 - libpng
 - pdf2svg (libpoppler)
@@ -170,7 +176,8 @@ TODO: count #CVE
 - tcpdump (libpcap)
 - libpcap
 - capstone
-- gif2png
+- gif2png (libpng)
+- libpng
 
 ## FairFuzz - Targeting Rare Branches to Rapidly Increase Greybox Fuzz Testing Coverage
 - tcpdump (libpcap)

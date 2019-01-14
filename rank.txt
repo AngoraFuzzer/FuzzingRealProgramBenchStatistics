@@ -1,24 +1,22 @@
+11 - libpng
 10 - libpcap
+10 - libjpeg
 9 - tcpdump (libpcap)
-9 - libjpeg
 9 - binutils
-8 - libpng
+8 - libpoppler
 7 - objdump (binutils)
 6 - nm (binutils)
-6 - libpoppler
+6 - mupdf
+6 - gif2png (libpng)
 6 - djpeg (libjpeg)
 5 - readelf (binutils)
-5 - mupdf
+5 - pdf2svg (libpoppler)
 5 - libtiff
 5 - ffmpeg
 4 - size (binutils)
 4 - libxml2
 3 - tcptrace (libpcap)
-3 - pdf2svg (libpoppler)
 3 - jhead
-3 - gif2png (libpng)
-3 - gif2png
-3 - convert
 3 - c++filt (binutils)
 3 - ImageMagick
 2 - xpdf
@@ -28,14 +26,15 @@
 2 - strings (binutils)
 2 - readpng (libpng)
 2 - pngfix (libpng)
-2 - pdf2svg
 2 - openssl
 2 - nginx
 2 - mruby
-2 - mpg321
+2 - mpg321 (libasound)
+2 - libasound
 2 - libarchive
 2 - gzip
 2 - file
+2 - convert
 2 - clamav (libclamav)
 2 - audiofile
 1 - zlib
@@ -85,7 +84,7 @@
 1 - mutool draw (mupdf)
 1 - mudraw
 1 - mplayer
-1 - mpg321 (libasound)
+1 - mpg321
 1 - mpeg3dump (libmpeg3)
 1 - mp3gain
 1 - metacam
@@ -107,10 +106,9 @@
 1 - libexif
 1 - libdwarf
 1 - libav
-1 - libasound
 1 - lepton
 1 - lci
-1 - jpegtran
+1 - jpegtran (libjpeg)
 1 - jbig2dev (libjbig2dev)
 1 - iwdconfig
 1 - ioctl handlers
